@@ -148,9 +148,11 @@ button {
 
 .popup-content {
   position: relative;
-  padding: 49px 12px;
+  padding: 49px 15px;
   background-color: #efefef;
-  max-width: 310px;
+  width: 310px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .popup-content__title {
@@ -178,14 +180,22 @@ button {
 
 .popup-content__img {
   position: absolute;
-  top: 50px;
+  top: 46px;
   left: -50px;
 }
 
+.popup-content__arrow {
+  position: absolute;
+  left: 227px;
+  bottom: 63px;
+}
+
 .popup-dialog {
-  padding: 28px 59px;
+  padding: 28px 58px;
   text-align: center;
   background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .popup-dialog__title {
@@ -221,17 +231,28 @@ button {
   margin-bottom: 15px;
 }
 
-.popup-dialog__text.third {
-  margin-bottom: 34px;
+.popup-dialog__text--bold {
+  font-weight: 900;
+}
+
+.popup-dialog__steps {
+  margin-bottom: 27px;
+  font-size: 12px;
+  line-height: 11px;
 }
 
 .popup-dialog__form {
   text-align: left;
 }
 
+.popup-dialog__mail {
+  font-size: 12px;
+  line-height: 11px;
+}
+
 .popup-dialog__input {
-  margin-top: 6px;
-  padding: 18px 15px;
+  margin-top: 5px;
+  padding: 16px 16px;
   border: 2px solid #f3ce00;
   border-radius: 4px;
   width: 100%;
@@ -256,7 +277,7 @@ button {
   border-radius: 4px;
   border: none;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 110%;
   text-transform: uppercase;
   color: #ffffff;
