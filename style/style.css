@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gotham Pro";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.popup {
+}
+.popup-wrapper {
+  display: flex;
+  width: 750px;
+  height: 449px;
+  border-radius: 20px;
+}
+.popup-content {
+  position: relative;
+  padding: 49px 12px;
+  background-color: #efefef;
+  max-width: 310px;
+}
+.popup-content__title {
+  position: relative;
+  margin: 0;
+  font-weight: 900;
+  font-size: 92px;
+  font-family: "Gotham Pro";
+  line-height: 88px;
+  text-align: right;
+  color: #000000;
+  mix-blend-mode: soft-light;
+}
+
+.popup-content__title::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 163.78px;
+  height: 77.49px;
+  background-color: rgba(0, 0, 0, 1);
+  transform: rotate(-25.13deg);
+  z-index: 5;
+}
+.popup-content__img {
+  position: absolute;
+}

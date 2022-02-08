@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main"></main>
+    <div class="popup">
+      <div class="popup-wrapper">
+        <div class="popup-content">
+          <h1 class="popup-content__title">ПОШ<br />АГО-ВЫЙ ПЛАН</h1>
+          <div class="popup-content__shadow"></div>
+          <img class="popup-content__img" src="img/book.png" alt="книга" />
+        </div>
+        <div class="popup-dialog">
+          <h2 class="popup-dialog__title">мастер-класс?</h2>
+          <p class="popup-dialog__text first">Скачайте пошаговый план</p>
+          <h3 class="popup-dialog__subtitle">
+            «Как собственнику выйти из операционки»
+          </h3>
+          <p class="popup-dialog__text second">
+            и познакомьтесь с этим инструментом прямо сейчас
+          </p>
+          <p class="popup-dialog__text third">
+            10 шагов помогут создать системный бизнес
+          </p>
+
+          <form action="#" method="POST" class="popup-dialog__form">
+            <label for="mail">
+              <span class="popup-dialog__text"
+                >Для получения бонуса введите email</span
+              >
+              <input
+                class="popup-dialog__input"
+                type="email"
+                name="mail"
+                id="mail"
+                required
+                placeholder="Ваш e-mail"
+              />
+            </label>
+            <button class="popup-dialog__btn">Скачать пошаговой план</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
